@@ -1,0 +1,88 @@
+
+body {
+    background-color: lightgray;
+}
+
+.nav-container {
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .9;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.introContainer {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.scrape-link {
+    color: orange;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;   
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#instruction {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#articles {
+    padding: 25px;
+}
+
+#comments {
+    padding: 25px;
+    position: fixed;
+    top: 30;
+    right: 0;
+    width: 40%;
+    
+}
+
+.comment-container {
+    max-width: 50%;
+
+}
+
+#titleinput {
+    margin: 10px;
+}
+
+#bodyinput {
+    margin: 10px;
+}
+
+#savecomment {
+    margin: 10px;
+}
