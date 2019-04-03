@@ -31,6 +31,7 @@ app.engine(
 );
 app.set("view engine", "handlebars");
 // Connect to the Mongo DB
+
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/news-scraper";
 
 mongoose.connect(MONGODB_URI);
